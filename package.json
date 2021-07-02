@@ -16,12 +16,8 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@types/rollup": "^0.54.0",
-    "@types/websocket": "^1.0.2",
     "argparse": "^2.0.1",
-    "chai": "^4.3.4",
     "debug": "^4.3.1",
-    "mocha": "^9.0.1",
     "rollup": "^2.47.0",
     "ts-node": "^9.1.1",
     "tslib": "^2.2.0",
@@ -30,10 +26,15 @@
     "ws": "^7.4.5"
   },
   "devDependencies": {
+    "@types/rollup": "^0.54.0",
+    "@types/websocket": "^1.0.2",
     "@rollup/plugin-typescript": "^8.2.1",
     "@types/mocha": "^8.2.2",
     "@types/ws": "^7.4.4",
     "prettier": "2.3.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "ts-mockito": "^2.6.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
   }
 }
